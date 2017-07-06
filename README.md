@@ -1,7 +1,7 @@
 # classic-clone
-## Game rules：
-* Press up,down,left and right keys to control player,and can move only one grid at a time
-* If the player is bumped by the enemy,the player will back initial position
-* If the player isn't bumped by the enenmy and arrive at the river successfully,then the player is win
-* When the player is win, the page will pop up a victory prompt
+## 游戏规则：
+* 玩家通过键盘中的上下左右键进行移动，且每次只能移动一格
+* 如果玩家被敌人碰撞，则玩家返回至初试位置
+* 如果玩家成功躲避了敌人并到达河边，那就成功了
+* 玩家成功后，屏幕弹出胜利的提示
 
