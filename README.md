@@ -1,0 +1,2 @@
+# classic-clone
+*steps
