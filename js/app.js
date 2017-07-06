@@ -5,7 +5,7 @@ var Enemy = function(x, y) {
 	this.x = x;
 	this.y = y;
 	//虫子的速度
-	this.speed = Math.random() * 300;
+	this.speed = Math.random() * 300+100;
 	// 我们已经提供了一个来帮助你实现更多
 
 	// 敌人的图片或者雪碧图，用一个我们提供 的工具函数来轻松的加载文件
@@ -20,7 +20,7 @@ Enemy.prototype.update = function(dt) {
 	this.x += this.speed * dt;
 
 	//这样就可以使得虫子源源不断的出现
-	if(this.x > 505) {
+	if(this.x > ctx.canvas.width) {
 		this.x = -50;
 	}
 };
